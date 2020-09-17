@@ -1,0 +1,38 @@
+@import "../reset.css";
+
+:root {
+  --main-blue: #67b7ec;
+  --main-white: #f7f5f5;
+  --main-black: #202020;
+  --main-shasow-color: #5cbbfab7;
+
+  --light-gray: #b8b8b827;
+  --gray: #64646494;
+  --dark-gray: #272626b9;
+
+  --second-blue: #94c8ebc5;
+}
+
+* {
+  text-decoration: none;
+  color: var(--main-black);
+}
+
+body {
+  background: var(--main-white);
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+section {
+  margin: 3%;
+}
+
+h1 {
+  font-weight: 800;
+  margin-bottom: 3%;
+  color: var(--main-blue);
+}
+
+span {
+  color: var(--gray);
+}

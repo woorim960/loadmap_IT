@@ -11,6 +11,7 @@ body {
   height: 100vh;
   margin: 0;
   background: linear-gradient(90deg, var(--main-blue) 50%, var(--main-white) 50%);
+  font-family: 'Nanum Gothic', sans-serif;
 }
 
 .question {
@@ -22,7 +23,7 @@ body {
   color: var(--main-black);
   font-size: 5vw;
   font-family: 'Open Sans', sans-serif;
-  font-weight: 700;
+  font-weight: 800;
   text-transform: uppercase;
   white-space: nowrap;
   text-shadow: var(--main-shasow-color) 4px 4px;
@@ -38,7 +39,7 @@ body {
   color: var(--main-white);
   font-size: 7vw;
   font-family: 'Open Sans', sans-serif;
-  font-weight: 700;
+  font-weight: 400;
   text-transform: uppercase;
   white-space: nowrap;
   border: solid 4px;

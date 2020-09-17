@@ -1,0 +1,109 @@
+@import "reset.css";
+
+:root {
+  --main-blue: #67b7ec;
+  --main-white: #f7f5f5;
+  --main-black: #202020;
+  --main-shasow-color: #5cbbfab7;
+
+  --light-gray: #b8b8b827;
+  --gray: #64646494;
+  --dark-gray: #272626b9;
+
+  --second-blue: #94c8ebc5;
+}
+
+* {
+  text-decoration: none;
+  color: var(--main-black);
+}
+
+body {
+  background: var(--main-white);
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+/* 비활성화 클래스 */
+.deactivation {
+  display: none;
+}
+
+/* 백그라운드 트리뷰 전체 */
+.bgTreeView {
+  margin: 3%;
+  padding: 4%;
+  /* border: solid 1px var(--main-blue); */
+  box-shadow: 1px 1px 4px var(--main-shasow-color);
+  border-radius: 20px;
+}
+
+.bgTreeView .treeViews .rootTitle {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 800;
+  width: 120px;
+  padding: 10px 0px;
+  color: var(--main-blue);
+  /* border: solid 0.5px var(--main-blue); */
+  border-radius: 4px;
+  box-shadow: 1px 1px 4px var(--main-shasow-color);
+}
+
+.bgTreeView .treeViews ul {
+  margin-left: 50px;
+}
+
+.firstChilds .firstChild {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  margin: 20px 0px;
+  padding-left: 10px;
+  border-left: solid 2px var(--main-blue);
+}
+
+.firstChilds .firstChild .firstChildTitle {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--dark-gray);
+}
+
+.firstChilds .firstChild .firstChildTitle:hover {
+  cursor: pointer;
+  color: brown;
+}
+
+.firstChilds .firstChild i {
+  margin-left: 5px;
+  color: var(--main-blue);
+}
+
+.firstChilds .firstChild i:hover {
+  color: brown;
+  cursor: pointer;
+}
+
+.firstChilds .secondChilds {
+  padding-left: 10px;
+  height: 100%;
+  border-left: solid 2px var(--second-blue);
+}
+
+.firstChilds .secondChilds .linkBtn {
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--main-blue);
+}
+
+.firstChilds .secondChilds .linkBtn:hover {
+  color: brown;
+  cursor: pointer;
+}
+
+.firstChilds .secondChilds .secondChild {
+  font-size: 14px;
+  margin-top: 10px;
+  color: var(--gray);
+}
+
+

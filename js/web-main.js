@@ -5,10 +5,10 @@ const frontTitle = document.querySelector('.bg-left .frontTitle'),
 
 function init() {
   frontTitle.addEventListener('click', function(event) {
-    location.href = "html/web/web-front.html";
+    location.href = "html/web/front/front-main.html";
   })
   backTitle.addEventListener('click', function(event) {
-    location.href = "html/web/web-back.html";
+    location.href = "html/web/back/back-main.html";
   })
 }
 
